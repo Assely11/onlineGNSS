@@ -1,0 +1,53 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+android {
+    namespace 'com.example.onlinegnss'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.onlinegnss"
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.activity
+    implementation libs.constraintlayout
+    // implementation files('libs/postgresql-42.3.9.jar')
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+
+    // implementation 'org.postgresql:postgresql:42.7.3'
+    // testImplementation('org.postgresql:postgresql:42.7.3')
+//    testImplementation "org.slf4j:slf4j-simple:1.7.36"
+//    testImplementation files('libs/postgresql-42.7.3.jar')
+    // https://mvnrepository.com/artifact/org.postgresql/postgresql
+//    testImplementation group: 'org.postgresql', name: 'postgresql', version: '42.2.28'
+//    // https://mvnrepository.com/artifact/com.mysql/mysql-connector-j
+//    implementation 'com.mysql:mysql-connector-j:8.2.0'
+    // https://mvnrepository.com/artifact/org.postgresql/postgresql
+    implementation group: 'org.postgresql', name: 'postgresql', version: '42.2.5'
+
+}
