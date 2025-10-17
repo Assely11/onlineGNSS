@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connect">连接数据库</string>
+    <string name="disconnect">断开数据库</string>
+    <string name="start">开始记录</string>
+    <string name="stop">停止记录</string>
+    <dimen name="viewheight">500dp</dimen>
+    <dimen name="logheight">200dp</dimen>
+</resources>
