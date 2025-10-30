@@ -1,0 +1,4 @@
+#Thu Oct 30 23:23:11 CST 2025
+base.0=/Volumes/Public/DEMO/android_projects_git/onlineGNSS/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

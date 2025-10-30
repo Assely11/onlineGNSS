@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color bw
+color white
+dimen logheight
+dimen viewheight
+drawable button
+drawable button2
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable textview
+id connect
+id gnssMeasurements
+id logView
+id main
+id record
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string connect
+string disconnect
+string start
+string stop
+style Base.Theme.OnlineGNSS
+style Theme.OnlineGNSS
+xml backup_rules
+xml data_extraction_rules

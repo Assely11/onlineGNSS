@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="bw">#96969696</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="logheight">200dp</dimen>
+    <dimen name="viewheight">500dp</dimen>
+    <string name="app_name">onlineGNSS</string>
+    <string name="connect">连接数据库</string>
+    <string name="disconnect">断开数据库</string>
+    <string name="start">开始记录</string>
+    <string name="stop">停止记录</string>
+    <style name="Base.Theme.OnlineGNSS" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.OnlineGNSS" parent="Base.Theme.OnlineGNSS"/>
+</resources>
